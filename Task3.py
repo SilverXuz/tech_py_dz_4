@@ -64,23 +64,6 @@ def main():
             print_log(log_d, log_w)
 
 
-def loging_deposit_cash(value):
-    """
-    Дополнительно сохраняйте все операции поступления и снятия средств в список.
-    :param value: int
-    :return: list
-    """
-
-
-
-
-def loging_withdraw_cash():
-    """
-    Дополнительно сохраняйте все операции поступления и снятия средств в список.
-    :param value: int
-    :return: list
-    """
-
 def print_log(log_d, log_w):
     if not log_d:
         print("\nОпераций пополнения нет!")
